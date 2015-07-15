@@ -1,6 +1,6 @@
 # Getting Started With TDD Rails
 
-Recommended ruby version '2.2.0'
+Recommended ruby version `2.2.0`
 
 
 To get started all you have to do is clone the project and cd into it
