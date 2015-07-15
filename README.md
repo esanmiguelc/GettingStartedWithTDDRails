@@ -12,3 +12,7 @@ To get started all you have to do is clone the project and cd into it
 Run bundle to get all the dependencies
 
     bundle install
+
+To run the tests
+
+    rspec
