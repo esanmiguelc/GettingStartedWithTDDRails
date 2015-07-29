@@ -3,19 +3,37 @@
     font-size: 18px;
 }
 
+body {
+    background-color: #F1F1F1;
+}
+
 .container {
     margin: auto;
     width: 1200px;
 }
 
-form {
-    display: inline-block;
-}
-
-.submit_button {
+.complete_task_button {
     border: none;
     background-color: transparent;
-    color: #03c8f0;
+    color: #f04e00;
+    font-size: 14px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.complete_task_button:hover {
+    cursor: pointer;
+}
+
+.create_new_task_button {
+    border: none;
+    background-color: transparent;
+    color: #6D6D6D;
+    cursor: pointer;
+    float: right;
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -23,21 +41,37 @@ form {
     text-transform: capitalize;
 }
 
-.submit_button:hover {
-    cursor: pointer;
+form {
+    display: inline-block;
+    width: 100%;
+}
+
+h3 {
+    color: #6D6D6D;
 }
 
 .task {
-    border: 3px solid #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
     padding: 10px;
-    margin-bottom: 15px;
+    width: 31.222%;
 }
 
 .task_description {
     border-bottom: 2px solid #f9f9f9;
+    color: #5f5f5f;
     display: block;
     margin-bottom: 5px;
     padding-bottom: 5px;
+}
+
+textarea {
+    border: 2px solid #f4f4f4;
+    width: 100%;
 }
 
 
