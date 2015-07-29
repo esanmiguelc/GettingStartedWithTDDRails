@@ -1,0 +1,16 @@
+<%= form_tag create_task_path, method: :post do %>
+    <%= text_area_tag 'description' %>
+    <%= button_tag 'create new task', class: 'create_new_task_button' %>
+<% end %>
+
+<% @todos.each do |todo| %>
+    <div class="task">
+      <div class="task_description">
+        <%= todo.description %>
+      </div>
+      <%= form_tag complete_task_path, method: :post do %>
+          <%= hidden_field_tag 'id', todo.id %>
+          <%= button_tag 'complete task', class: 'complete_task_button' %>
+      <% end %>
+    </div>
+<% end %>
