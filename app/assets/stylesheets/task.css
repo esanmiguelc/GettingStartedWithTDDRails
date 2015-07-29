@@ -30,6 +30,7 @@ form {
 .task {
     border: 3px solid #f9f9f9;
     padding: 10px;
+    margin-bottom: 15px;
 }
 
 .task_description {
