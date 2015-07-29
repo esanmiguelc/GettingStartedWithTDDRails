@@ -1,0 +1,42 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+form {
+    display: inline-block;
+}
+
+.submit_button {
+    border: none;
+    background-color: transparent;
+    color: #03c8f0;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.submit_button:hover {
+    cursor: pointer;
+}
+
+.task {
+    border: 3px solid #f9f9f9;
+    padding: 10px;
+}
+
+.task_description {
+    border-bottom: 2px solid #f9f9f9;
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+
